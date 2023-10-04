@@ -6,7 +6,7 @@
 /* This is our Flex container - children are flex items */
 .container {
 	display: flex;
-	height: 90vh; 
+	height: 10vh; 
 	flex-direction: row;  			    /* Default - horizontal Main Axis, reading left to right */
 	flex-direction: row-reverse;        /* Horizontal Main Axis, reading right to left */
 	flex-direction: column;  			/* Vertical Main Axis, reading top to bottom */
