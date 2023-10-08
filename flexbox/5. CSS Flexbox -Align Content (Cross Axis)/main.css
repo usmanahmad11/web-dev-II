@@ -1,0 +1,28 @@
+.item {
+	background-color: #d4e1ff;
+	border: 1px solid green;	
+}
+
+/* This is our Flex container - children are flex items */
+.container {
+	display: flex;
+	height: 90vh; 		
+	align-items: stretch;			/* Default: This makes items stretch across the cross axis */
+	align-items: flex-start;     	/* This aligns items to the start of the Cross Axis */
+	align-items: flex-end;			/* This aligns items to the end of the Cross Axis */
+	align-items: center;			/* This aligns items to the center of the Cross Axis */
+}
+
+/* This will override heights applied to items when using the 'align-items' property */
+.item1 {
+	height: 200px;
+}
+
+/*
+Notes
+
+Comment out all align-items properties and uncomment one by one to see the result.
+
+Note that the flex container needs a height in order to align items.
+
+*/

@@ -1,0 +1,27 @@
+/* The >* notation means that for all IMMEDIATE children of .container, the following styling applied. */
+/* Therefore a 1px black border and 10px of padding is applied to all <section> elements in .container */
+
+.container >* {
+	border: 1px solid black;
+	padding: 10px;
+}
+
+nav, footer {
+	border: 1px solid black;
+	padding: 10px;
+}
+
+/*
+Specification:
+
+For viewport widths of under 600px, no adjustment of layout is needed.
+For viewport widths of over 600px and up to and including 900px:
+	- Use CSS grid to achieve the target image
+	- The 'Main Content' column should always be twice the width of the 'Related Links/Ads' columns.
+For viewport widths of over 900 pixels:
+	- Use CSS Flexbox to achieve the target image
+	- The 'Main Content' column should always be twice the width of the 'Related Links' and 'Ads' columns.
+	
+---- Add styling below this line ----
+*/
+

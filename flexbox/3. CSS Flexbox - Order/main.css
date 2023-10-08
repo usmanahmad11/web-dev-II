@@ -1,0 +1,26 @@
+.item {
+	background-color: #d4e1ff;
+	border: 1px solid green;	
+}
+
+/* This is our Flex container - children are flex items */
+.container {
+	display: flex;
+	height: 90vh; 
+	
+}
+
+/* Order of 1 will push item 3 to the end of the flow. Remember, 0 is default */
+.item3 {
+	order: 1;
+}
+
+/* Order of 2 will push item 1 to the end of the flow, now after item 3 */
+.item1 {
+	order: 2;
+}
+
+/* Order of -1 will push item 1 to the beginning of the flow, now before item 2, which has a default order of 0 */
+.item5 {
+	order: -1;
+}

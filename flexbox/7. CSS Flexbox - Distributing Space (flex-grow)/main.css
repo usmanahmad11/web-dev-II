@@ -1,0 +1,21 @@
+.item {
+	background-color: #d4e1ff;
+	border: 1px solid green;	
+}
+
+/* This is our Flex container - children are flex items */
+.container {
+	display: flex;
+	height: 90vh; 		
+}
+
+/* Here container width (minus space needed for other content) is distributed to item 1 and 3. Yet 3 is given twice as much of the remaining space as item 1. */
+
+.item1 {
+	flex-grow: 1;  
+}
+
+.item3 {
+	flex-grow: 2;
+}
+

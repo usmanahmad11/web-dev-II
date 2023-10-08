@@ -1,0 +1,27 @@
+.item {
+	background-color: #d4e1ff;
+	border: 1px solid green;	
+}
+
+/* This is our Flex container - children are flex items */
+.container {
+	display: flex;
+	height: 90vh; 		
+	justify-content: flex-start;	/* This aligns items to the start of the Main Axis */
+	justify-content: flex-end;      /* This aligns items to the end of the Main Axis */
+	justify-content: center;		/* This alignts items to the centre of the Main Axis */
+	justify-content: space-between;	/* This takes leftover space and divides between items */
+	justify-content: space-around;	/* This creates equal space around each items */
+	justify-content: space-evenly;	/* This creates equal space between each items */
+	
+	/* flex-direction: row; */	/* Note how justify-content acts on the Main Axis (vertical here) */
+}
+
+/*
+Notes
+
+Comment out all justify-content properties and uncomment one by one to see the result
+
+Flex-direction will adjust how justify-content works. Try uncommenting the flex-direction property and changing its value to column, or column-reversed to see how alignment changes.
+
+*/
