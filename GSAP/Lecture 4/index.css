@@ -1,0 +1,18 @@
+body{
+    font-family: 'Asap', Arial, Helvetica, sans-serif;
+    color:white;
+    background:black ;
+    margin:3% 10% 0 10%;
+    overflow:hidden;
+  }
+  
+  #quote{
+    font-size:44px;
+    line-height:50px;
+    color:#dedede;
+  }
+  
+  button {
+    padding:10px;
+    margin: 20px 0;
+  }
