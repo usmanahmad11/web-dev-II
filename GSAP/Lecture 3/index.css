@@ -7,31 +7,6 @@ body {
     text-align: center;
   }
   
-  h1,
-  h2,
-  h3 {
-    margin: 10px 0 10px 0;
-    color: #f3f2ef;
-  }
-  
-  h1 {
-    font-size: 36px;
-  }
-  
-  h2 {
-    font-size: 30px;
-  }
-  
-  h3 {
-    font-size: 24px;
-  }
-  
-  p {
-    line-height: 22px;
-    margin-bottom: 16px;
-    width: 650px;
-  }
-  
   #demo {
     height: 100%;
     position: relative;
