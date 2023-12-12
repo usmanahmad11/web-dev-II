@@ -3,7 +3,8 @@ export default {
   name:"App",
   data() {
     return {
-      name:"Usman Ahmad"
+      name:"Usman Ahmad",
+      Channel:"Careernest"
     }
   }
 }
@@ -12,6 +13,7 @@ export default {
 
 <template>
   <div>Hello {{ name }}</div>
+  <div v-text="Channel"></div>
 </template>
 
 <style scoped>
