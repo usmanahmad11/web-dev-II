@@ -5,7 +5,7 @@ export default {
     return {
       name:"Usman Ahmad",
       Channel:"Careernest"
-      headingid:"Heading"
+      
     }
   }
 }
@@ -15,7 +15,7 @@ export default {
 <template>
 
   <div>Hello {{ name }}</div>
-  <div v-bind:id="headingid">Heading</div>
+  <div v-bind:id="headingid"></div>
   <div v-text="Channel"></div>
 </template>
 
