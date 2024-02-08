@@ -73,8 +73,13 @@ header {
     color:olive;
   }
   .sold-out{
-    color:red;
+    
+    background-color: aqua;
 
   }
+
+  
 }
 </style>
+
+
